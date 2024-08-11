@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_gravity="right"
+    >
+        <ImageView android:layout_width="match_parent"
+                   android:gravity="center_vertical"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/gallery"
+                   android:text="Hello"
+                   android:id="@+id/send_image"
+                   android:layout_height="match_parent"/>
+        <LinearLayout android:layout_gravity="right|bottom"
+                      android:orientation="horizontal"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content">
+            <TextView android:textSize="11dp"
+                      android:textColor="#ffffff"
+                      android:layout_gravity="right|bottom"
+                      android:id="@+id/send_image_time"
+                      android:paddingRight="5dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="2:33 pm"/>
+            <ImageView android:layout_gravity="right|bottom"
+                       android:id="@+id/send_image_singleCheck"
+                       android:visibility="visible"
+                       android:layout_width="15dp"
+                       android:layout_height="12dp"
+                       android:layout_marginRight="7dp"
+                       android:src="@drawable/single_check"/>
+            <ImageView android:layout_gravity="right|bottom"
+                       android:id="@+id/send_image_doubleCheck"
+                       android:visibility="gone"
+                       android:layout_width="15dp"
+                       android:layout_height="12dp"
+                       android:layout_marginRight="7dp"
+                       android:src="@drawable/double_check"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+    android:background="#006054">
+<!--        <LinearLayout android:layout_width="match_parent"-->
+<!--                      android:orientation="horizontal"-->
+<!--                      android:layout_height="70dp">-->
+<!--&lt;!&ndash;            <TextView android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                      android:text="Main"&ndash;&gt;-->
+<!--&lt;!&ndash;                      android:id="@+id/show_email"&ndash;&gt;-->
+<!--&lt;!&ndash;                      android:textSize="15dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                      android:textStyle="bold"&ndash;&gt;-->
+<!--&lt;!&ndash;                      android:textColor="#000000"&ndash;&gt;-->
+<!--&lt;!&ndash;                      android:layout_height="wrap_content"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <TextView android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                      android:text="Main"&ndash;&gt;-->
+<!--&lt;!&ndash;                      android:id="@+id/show_name"&ndash;&gt;-->
+<!--&lt;!&ndash;                      android:textSize="35dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                      android:textStyle="bold"&ndash;&gt;-->
+<!--&lt;!&ndash;                      android:textColor="#000000"&ndash;&gt;-->
+<!--&lt;!&ndash;                      android:layout_height="wrap_content"/>&ndash;&gt;-->
+
+
+<!--            <TextView android:layout_width="wrap_content"-->
+<!--                      android:layout_height="match_parent"-->
+<!--                      android:textColor="#ffffff"-->
+<!--                      android:paddingLeft="15dp"-->
+<!--                      android:textStyle="bold"-->
+<!--                      android:gravity="center"-->
+<!--                      android:textSize="20dp"-->
+<!--            android:text="WhatsApp"/>-->
+
+
+<!--            <LinearLayout android:layout_width="match_parent"-->
+<!--                          android:layout_height="match_parent"-->
+<!--                          android:paddingRight="10dp"-->
+<!--            android:gravity="right">-->
+<!--                <ImageView android:layout_width="25dp"-->
+<!--                           android:layout_gravity="center"-->
+<!--                           android:id="@+id/refress_button"-->
+<!--                           android:textColor="#ffffff"-->
+<!--                           android:src="@drawable/refress"-->
+<!--                           android:layout_height="match_parent"/>-->
+<!--                <ImageView android:layout_width="25dp"-->
+<!--                           android:layout_gravity="center"-->
+<!--                           android:id="@+id/logout_button"-->
+<!--                           android:layout_marginStart="10dp"-->
+<!--                           android:textColor="#ffffff"-->
+<!--                           android:src="@drawable/logout"-->
+<!--                           android:layout_height="match_parent"/>-->
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+        android:orientation="vertical">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="27dp"
+                      android:text="CHATS"
+                      android:textStyle="bold"
+                      android:paddingLeft="70dp"
+                      android:gravity="center_vertical"
+                      android:textColor="#ffffff"/>
+            <View android:layout_width="110dp"
+                  android:background="#ffffff"
+                  android:layout_marginLeft="40dp"
+                  android:layout_height="2dp"/>
+            <View android:layout_width="110dp"
+                  android:background="#ababab"
+                  android:layout_marginLeft="40dp"
+                  android:layout_height="1dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:background="#f1f3f6"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                                       android:layout_height="wrap_content"
+                                       android:layout_margin="14dp"
+                                       app:cardElevation="0dp">
+        <LinearLayout android:orientation="horizontal"
+                      android:background="#f1f3f6"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+
+            <com.google.android.material.card.MaterialCardView android:id="@+id/profile_pic_visiblity"
+                                                               android:visibility="visible"
+                                                               android:layout_width="62dp"
+                                                               android:layout_height="62dp"
+                                                               android:backgroundTint="#f1f3f6"
+                                                               app:cardCornerRadius="31dp"
+                                                               app:cardElevation="0dp">
+                <ImageView android:id="@+id/profile_pic"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:src="@drawable/user"
+                           android:scaleType="fitXY"/>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView android:id="@+id/image_progress_bar"
+                                                               android:visibility="gone"
+                                                               android:layout_width="62dp"
+                                                               android:layout_height="62dp"
+                                                               android:backgroundTint="#f1f3f6">
+                <ProgressBar android:layout_gravity="center"
+                             android:layout_width="35dp"
+                             android:layout_height="35dp"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:layout_marginLeft="10dp">
+                <TextView android:textSize="18dp"
+                          android:textColor="#000000"
+                          android:id="@+id/name"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="10dp"
+                          android:text="My name"/>
+                <TextView android:textSize="15dp"
+                          android:id="@+id/about"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="2dp"
+                          android:text="About"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <View android:background="#f3eff7"
+          android:layout_width="match_parent"
+          android:layout_height="1dp"/>
+
+    <androidx.cardview.widget.CardView android:id="@+id/change_theme"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="wrap_content"
+                                       android:layout_margin="14dp"
+                                       app:cardElevation="0dp">
+        <LinearLayout android:orientation="horizontal"
+                      android:background="#f1f3f6"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+            <com.google.android.material.card.MaterialCardView android:visibility="visible"
+                                                               android:layout_width="55dp"
+                                                               android:layout_height="55dp"
+                                                               android:backgroundTint="#f1f3f6"
+                                                               app:cardCornerRadius="31dp"
+                                                               app:cardElevation="0dp">
+                <ImageView android:layout_gravity="center"
+                           android:layout_width="24dp"
+                           android:layout_height="24dp"
+                           android:src="@drawable/theme"
+                           android:scaleType="center"/>
+            </com.google.android.material.card.MaterialCardView>
+
+            <LinearLayout android:orientation="vertical"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_marginLeft="10dp">
+                <TextView android:textSize="14dp"
+                          android:textColor="#000000"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="10dp"
+                          android:text="Change Theme"/>
+                <TextView android:textSize="12dp"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="2dp"
+                          android:text="blue, black, green ..."/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_margin="14dp"
+                                       app:cardElevation="0dp">
+        <LinearLayout android:orientation="horizontal"
+                      android:background="#f1f3f6"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+            <com.google.android.material.card.MaterialCardView android:visibility="visible"
+                                                               android:layout_width="55dp"
+                                                               android:layout_height="55dp"
+                                                               android:backgroundTint="#f1f3f6"
+                                                               app:cardCornerRadius="31dp"
+                                                               app:cardElevation="0dp">
+                <ImageView android:layout_gravity="center"
+                           android:layout_width="24dp"
+                           android:layout_height="24dp"
+                           android:src="@drawable/language"
+                           android:scaleType="center"/>
+            </com.google.android.material.card.MaterialCardView>
+            <LinearLayout android:orientation="vertical"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_marginLeft="10dp">
+                <TextView android:textSize="14dp"
+                          android:textColor="#000000"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="10dp"
+                          android:text="App language"/>
+                <TextView android:textSize="12dp"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="2dp"
+                          android:text="English (phone's language)"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                                       android:layout_height="wrap_content"
+                                       android:layout_margin="14dp"
+                                       app:cardElevation="0dp">
+        <LinearLayout android:orientation="horizontal"
+                      android:background="#f1f3f6"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+            <com.google.android.material.card.MaterialCardView android:visibility="visible"
+                                                               android:layout_width="55dp"
+                                                               android:layout_height="55dp"
+                                                               android:backgroundTint="#f1f3f6"
+                                                               app:cardCornerRadius="31dp"
+                                                               app:cardElevation="0dp">
+                <ImageView android:layout_gravity="center"
+                           android:layout_width="24dp"
+                           android:layout_height="24dp"
+                           android:src="@drawable/help"
+                           android:scaleType="center"/>
+            </com.google.android.material.card.MaterialCardView>
+            <LinearLayout android:orientation="vertical"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent" android:layout_marginLeft="10dp">
+                <TextView android:textSize="14dp"
+                          android:textColor="#000000"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="10dp"
+                          android:text="Help"/>
+                <TextView android:textSize="12dp"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="2dp"
+                          android:text="Help centre, contact us, privacy policy"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton android:textSize="15dp"
+                                                       android:layout_gravity="center"
+                                                       android:id="@+id/logout"
+                                                       android:layout_width="100dp"
+                                                       android:layout_height="55dp"
+                                                       android:layout_marginTop="20dp"
+                                                       android:text="Logout"
+                                                       android:textAllCaps="false"/>
+</LinearLayout>

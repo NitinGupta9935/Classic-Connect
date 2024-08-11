@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1016879285498",
+    "firebase_url": "https://classic-connect-e1666-default-rtdb.firebaseio.com",
+    "project_id": "classic-connect-e1666",
+    "storage_bucket": "classic-connect-e1666.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016879285498:android:f87ba1a0bad6eb58667543",
+        "android_client_info": {
+          "package_name": "com.example.whatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi1GnnKuf9soIy7C4TiUHnpwl6xHWlnhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

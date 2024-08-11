@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/channel_setting"
+            android:title="Setting">
+    </item>
+    <item
+            android:id="@+id/leave_channel"
+            android:title="Leave Channel">
+    </item>
+    <item
+            android:id="@+id/delete_channel"
+            android:title="Delete Channel">
+    </item>
+</menu>
